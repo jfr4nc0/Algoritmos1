@@ -2,11 +2,12 @@
 // Created by neur0tik on 4/10/21.
 //
 
-#ifndef ALGORITMOS1_STRINGS_H
-#define ALGORITMOS1_STRINGS_H
+#ifndef ALGORITMOS1_STRINGS_HPP
+#define ALGORITMOS1_STRINGS_HPP
 
 #include <iostream>
-#include <stdio.h>
+#include <string.h>
+#include <cstdio>
 #include <math.h>
 using namespace std;
 
@@ -245,4 +246,20 @@ int cmpDouble(double a,double b)
     return 0;
 }
 
-#endif //ALGORITMOS1_STRINGS_H
+string collIntToString(Coll<int> x)
+{
+    string r = "";
+    collReset<int>(x);
+    while( collHasNext<int>(x) )
+    {
+        int i = collNext<int>(x, stringToInt);
+        addToken(r,',', intToString(i));
+    }
+
+    return r;
+}
+
+
+
+
+#endif //ALGORITMOS1_STRINGS_HPP

@@ -6,7 +6,7 @@
 #define ALGORITMOS1_COLL_H
 
 #include <iostream>
-#include "../funciones/strings.hpp"
+#include "/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/funciones/strings.hpp"
 
 using namespace std;
 
@@ -161,6 +161,19 @@ Coll<T> collFromString(string s)
     c.sep=s[0];
     c.s=substring(s,1);
     return c;
+}
+
+template<typename T>
+Coll<int> collIntFromString(string s)
+{
+    Coll<int> x = coll<int>(',');
+    for(int i=0; i<tokenCount(s,','); i++)
+    {
+        int i = stringToInt(getTokenAt(s,',',i));
+        collAdd<int>(x,i,intToString);
+    }
+
+    return x;
 }
 
 #endif //ALGORITMOS1_COLL_H

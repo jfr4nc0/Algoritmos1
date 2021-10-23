@@ -2,8 +2,8 @@
 // Created by neur0tik on 4/10/21.
 //
 
-#ifndef ALGORITMOS1_ARRAYS_H
-#define ALGORITMOS1_ARRAYS_H
+#ifndef ALGORITMOS1_ARRAYS_HPP
+#define ALGORITMOS1_ARRAYS_HPP
 
 #include <iostream>
 
@@ -43,4 +43,4 @@ void sort(T arr[],int len,int cmpTT(T,T))
     return;
 }
 
-#endif //ALGORITMOS1_ARRAYS_H
+#endif //ALGORITMOS1_ARRAYS_HPP

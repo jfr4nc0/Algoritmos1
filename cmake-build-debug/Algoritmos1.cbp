@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug"/>
+				<Option working_dir="/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug"/>
+				<Option working_dir="/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug"/>
+				<Option working_dir="/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Algoritmos1">
-				<Option output="/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Algoritmos1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug"/>
+				<Option output="/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Algoritmos1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algoritmos1"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algoritmos1"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Algoritmos1/fast">
-				<Option output="/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Algoritmos1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug"/>
+				<Option output="/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Algoritmos1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,77 +73,107 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algoritmos1/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algoritmos1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/funciones/arrays.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/funciones/arrays.hpp">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/funciones/files.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/funciones/files.hpp">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/funciones/lists.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/funciones/lists.hpp">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/funciones/strings.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/funciones/strings.hpp">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/funciones/tokens.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/funciones/tokens.hpp">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/programas/leccion8/busqueda/busquedaBinaria.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/programas/leccion8/busqueda/busquedaLineal.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/programas/leccion8/ordenamiento/burbujeo.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/programas/leccion8/ordenamiento/burbujeoMejorado.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/programas/leccion8/ordenamiento/insercionAvanzada.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoSAMCO.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/programas/leccion8/ordenamiento/insercionSimple.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/programas/leccion9/estructuraDatos1.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/tads/Array.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/tads/Coll.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/tads/List.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion8/busqueda/busquedaBinaria.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/tads/Map.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion8/busqueda/busquedaLineal.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/tads/Queue.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion8/ordenamiento/burbujeo.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/tads/Stack.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion8/ordenamiento/burbujeoMejorado.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/tads/huffman/HuffmanSetup.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion8/ordenamiento/insercionAvanzada.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/biblioteca/tads/huffman/Progress.h">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion8/ordenamiento/insercionSimple.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/main.cpp">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion9/CollStructConColl.h">
 			<Option target="Algoritmos1"/>
 		</Unit>
-		<Unit filename="/home/neur0tik/CLionProjects/Algoritmos1/CMakeLists.txt">
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/programas/leccion9/estructuraDatos1.h">
+			<Option target="Algoritmos1"/>
+		</Unit>
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/tads/Array.h">
+			<Option target="Algoritmos1"/>
+		</Unit>
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/tads/Coll.h">
+			<Option target="Algoritmos1"/>
+		</Unit>
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/tads/List.h">
+			<Option target="Algoritmos1"/>
+		</Unit>
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/tads/Map.h">
+			<Option target="Algoritmos1"/>
+		</Unit>
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/tads/Queue.h">
+			<Option target="Algoritmos1"/>
+		</Unit>
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/tads/Stack.h">
+			<Option target="Algoritmos1"/>
+		</Unit>
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/tads/huffman/HuffmanSetup.h">
+			<Option target="Algoritmos1"/>
+		</Unit>
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/biblioteca/tads/huffman/Progress.h">
+			<Option target="Algoritmos1"/>
+		</Unit>
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/main.cpp">
+			<Option target="Algoritmos1"/>
+		</Unit>
+		<Unit filename="/home/neur0tik/CLionProjects/AlgoritmosAPI/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

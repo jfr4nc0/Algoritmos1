@@ -1,0 +1,21 @@
+- Todo lo visto el primer cuatrimestre.
+
+- Arrays: Algoritmos de búsqueda y ordenamiento, Apareo, Corte de Control, etc.
+
+- Structs
+
+- Archivos: Archivos binarios. Lectura, Escritura Búsquedas, Actualización (Lectura y Escritura). fopen, fseek, fread, fwrite, fclose, ftell.  Modos de apertura.
+
+- Punteros y memoria dinámica: Inicializaciones válidas de puteros. Uso de new y delete. Operadores de
+
+referencia y de desferencia (& y * respectivamente). Ejemplo:
+
+int x = 15; int *p = NULL;
+
+p = &x;
+
+cout << "El valor que guarda p es " << p << "lo guardado en donde apunta p es: " << *p;
+
+- Listas SE, Pilas y Colas: Todas las operaciones, incluídas push y pop, queue y unqueue, agregar nodos,
+
+quitar nodos, borrar la lista, búsqueda, etc.

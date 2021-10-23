@@ -2,8 +2,8 @@
 // Created by neur0tik on 4/10/21.
 //
 
-#ifndef ALGORITMOS1_LISTS_H
-#define ALGORITMOS1_LISTS_H
+#ifndef ALGORITMOS1_LISTS_HPP
+#define ALGORITMOS1_LISTS_HPP
 
 #include <iostream>
 #include <stdio.h>
@@ -111,4 +111,4 @@ T dequeue(Node<T>*& q)
     return t;
 }
 
-#endif //ALGORITMOS1_LISTS_H
+#endif //ALGORITMOS1_LISTS_HPP

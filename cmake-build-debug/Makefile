@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/neur0tik/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/neur0tik/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/neur0tik/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/neur0tik/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/neur0tik/CLionProjects/Algoritmos1
+CMAKE_SOURCE_DIR = /home/neur0tik/CLionProjects/AlgoritmosAPI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/neur0tik/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/neur0tik/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/neur0tik/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5284.51/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/neur0tik/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/CMakeFiles /home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/CMakeFiles /home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/neur0tik/CLionProjects/Algoritmos1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neur0tik/CLionProjects/AlgoritmosAPI/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,102 @@ Algoritmos1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/build
 .PHONY : Algoritmos1/fast
 
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.o: biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.o
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.o
+
+# target to build an object file
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.o
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.o
+
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.i: biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.i
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.i
+
+# target to preprocess a source file
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.i
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.i
+
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.s: biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.s
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.s
+
+# target to generate assembly for a file
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.s
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.cpp.s
+
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.o: biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.o
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.o
+
+# target to build an object file
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.o
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.o
+
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.i: biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.i
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.i
+
+# target to preprocess a source file
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.i
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.i
+
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.s: biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.s
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.s
+
+# target to generate assembly for a file
+biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.s
+.PHONY : biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.cpp.s
+
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.o: biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.o
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.o
+
+# target to build an object file
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.o
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.o
+
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.i: biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.i
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.i
+
+# target to preprocess a source file
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.i
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.i
+
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.s: biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.s
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.s
+
+# target to generate assembly for a file
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.s
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.cpp.s
+
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.o: biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.o
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.o
+
+# target to build an object file
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.o
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.o
+
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.i: biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.i
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.i
+
+# target to preprocess a source file
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.i
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.i
+
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.s: biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.s
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.s
+
+# target to generate assembly for a file
+biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algoritmos1.dir/build.make CMakeFiles/Algoritmos1.dir/biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.s
+.PHONY : biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algoritmos1"
+	@echo "... biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.o"
+	@echo "... biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.i"
+	@echo "... biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoBSA.s"
+	@echo "... biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.o"
+	@echo "... biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.i"
+	@echo "... biblioteca/programas/leccion11/busqueda_sobre_archivos_de_consulta/MetodoIndexarArchivo.s"
+	@echo "... biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.o"
+	@echo "... biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.i"
+	@echo "... biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoIndexacion.s"
+	@echo "... biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.o"
+	@echo "... biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.i"
+	@echo "... biblioteca/programas/leccion11/ordenar_archivos_de_consulta/ordenamientoMemoria.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

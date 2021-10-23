@@ -2,8 +2,8 @@
 // Created by neur0tik on 4/10/21.
 //
 
-#ifndef ALGORITMOS1_TOKENS_H
-#define ALGORITMOS1_TOKENS_H
+#ifndef ALGORITMOS1_TOKENS_HPP
+#define ALGORITMOS1_TOKENS_HPP
 
 #include <iostream>
 #include <stdio.h>
@@ -37,4 +37,4 @@ int findToken(string s,char sep, string t)
     return 0;
 }
 
-#endif //ALGORITMOS1_TOKENS_H
+#endif //ALGORITMOS1_TOKENS_HPP
